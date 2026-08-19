@@ -1,28 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Management System</title>
+
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-<div class="container">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-user-graduate"></i>
+            Student Management
+        </div>
 
-    <h1>Student Management System</h1>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/add">Add Student</a></li>
+            <li><a href="/students">View Students</a></li>
+        </ul>
+    </nav>
 
-    <div class="buttons">
-        <a href="/add">
-            <button>Add Student</button>
-        </a>
+    <!-- Hero Section -->
+    <section class="hero">
 
-        <a href="/students">
-            <button>View Students</button>
-        </a>
-    </div>
+        <div class="hero-content">
 
-</div>
+            <h1>Student Management System</h1>
 
-<script src="{{ url_for('static', filename='script.js') }}"></script>
+            <p>
+                A modern Flask-based web application for managing
+                student records efficiently using Python,
+                Object-Oriented Programming and File Handling.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="/add" class="btn btn-primary">
+                    <i class="fas fa-plus-circle"></i>
+                    Add Student
+                </a>
+
+                <a href="/students" class="btn btn-secondary">
+                    <i class="fas fa-users"></i>
+                    View Students
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+
+        <h2>System Features</h2>
+
+        <div class="feature-grid">
+
+            <div class="card">
+                <i class="fas fa-user-plus"></i>
+                <h3>Add Student</h3>
+                <p>Store student records quickly and efficiently.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-address-book"></i>
+                <h3>View Students</h3>
+                <p>Access all saved student records instantly.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-file"></i>
+                <h3>File Handling</h3>
+                <p>Data is stored securely in text files.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-bolt"></i>
+                <h3>Fast Performance</h3>
+                <p>Lightweight Flask architecture for speed.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats">
+
+        <div class="stat-box">
+            <h2>100%</h2>
+            <p>Python</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>Flask</h2>
+            <p>Backend</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>OOP</h2>
+            <p>Design</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>TXT</h2>
+            <p>Storage</p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Student Management System |
+            Developed using Flask, Python, HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 
 </body>
 </html>
