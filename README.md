@@ -1,107 +1,107 @@
-# Student Management System
+# 🎓 Student Management System
 
-## Project Overview
-This is a Python-based Student Management System developed using Object-Oriented Programming (OOP) and File Handling.
+A modern Student Management System built using Python, Flask, OOP, File Handling, HTML, CSS, and JavaScript.
 
-## Features
-- Add Student
+## 🚀 Project Overview
+
+This project allows users to manage student records through a web-based interface.
+
+Users can:
+
+- Add Students
 - View Students
-- Search Student
-- Update Student
-- Delete Student
-- Store data in text file
-- Exception Handling
+- Store Data in Text Files
+- Manage Student Records Efficiently
 
-## Technologies
+## 🛠 Technologies Used
+
 - Python 3
-- OOP
+- Flask
+- HTML5
+- CSS3
+- JavaScript
+- OOP (Object-Oriented Programming)
 - File Handling
 
-## Run Project
+## 📂 Project Structure
+
+Student-Management-System/
+
+├── app.py
+
+├── student.py
+
+├── manager.py
+
+├── file_handler.py
+
+├── students.txt
+
+├── templates/
+
+│ ├── index.html
+
+│ ├── add_student.html
+
+│ └── view_students.html
+
+└── static/
+
+├── style.css
+
+└── script.js
+
+## ✨ Features
+
+### Student Management
+
+- Add New Student
+- View Student Records
+- Store Data Permanently
+- User-Friendly Interface
+
+### Web Interface
+
+- Responsive Design
+- Flask Backend
+- HTML Templates
+- CSS Styling
+- JavaScript Support
+
+## ▶️ Run the Project
+
+### Install Flask
 
 ```bash
-py main.py
+pip install flask
+```
 
+### Start Application
 
+```bash
+python app.py
+```
 
----
+### Open Browser
 
-## Project Report Content
+```text
+http://127.0.0.1:5000
+```
 
-### Title
+## 📸 Screens
 
-**Student Management System**
+- Home Page
+- Add Student Page
+- View Students Page
 
-### Introduction
+## 👨‍💻 Developer
 
-The Student Management System is a Python application used to manage student records efficiently. The system allows users to add, view, search, update, and delete student information using file handling techniques.
+Sandip Chandrakanta Sahoo
 
-### Objectives
+B.Tech CSE
 
-- Manage student records
-- Perform CRUD operations
-- Implement OOP concepts
-- Use file handling for data storage
+Python Full Stack Developer
 
-### Technologies Used
+## 📄 License
 
-- Python
-- VS Code
-- Text File Storage
-
-### Features
-
-#### Add Student
-Stores student details.
-
-#### View Students
-Displays all student records.
-
-#### Search Student
-Finds a student using Student ID.
-
-#### Update Student
-Updates student information.
-
-#### Delete Student
-Removes student records.
-
-### System Design
-
-User
-↓
-main.py
-↓
-manager.py
-↓
-file_handler.py
-↓
-students.txt
-
-
-### Advantages
-
-- Easy to use
-- Lightweight
-- Modular design
-- Data persistence
-
-### Conclusion
-
-The Student Management System successfully performs CRUD operations using Python OOP and File Handling concepts.
-
----
-
-## Sample students.txt
-
-```txt
-101,Sandip,23,CSE
-102,Rahul,22,CSE
-103,Priya,21,IT
-104,Amit,24,CSE
-105,Neha,22,ECE
-106,Rakesh,23,EEE
-107,Anjali,21,Mechanical
-108,Suman,22,Civil
-109,Pooja,23,CSE
-110,Arjun,24,IT
+This project is created for educational and internship purposes.
