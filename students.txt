@@ -1,0 +1,10 @@
+101,Sandip Sahoo,24,Python Full Stack
+102,Rahul,22,CSE
+103,Priya,21,IT
+104,Amit,24,CSE
+105,Neha,22,ECE
+106,Rakesh,23,EEE
+107,Anjali,21,Mechanical
+108,Suman,22,Civil
+109,Pooja,23,CSE
+110,Arjun,24,IT
